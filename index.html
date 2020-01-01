@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>My Homepage</title>
+<!--         Script tages here to load JavaScript code. -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <h1 class="display">Blue Noble Koala</h1>
+        <h1>Projects</h1>
+        <table class="table-project">
+        <thead>
+            <tr>
+            <th class="table-project-name">Name</th>
+            <th class="table-project-description">Description</th>
+            <th class="table-project-keywords">Keywords</th>
+            <th class="table-project-progress">Progress</th>
+            <th class="table-project-comment">Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Dota2 Heroes Stats</td>
+            <td>Visualize Dota2 Heroes Stats as cards similar to Dota2 Client. Sortable by selected attribute and color mapped.</td>
+            <td>Python, Pandas, Bokeh, Javascript, CSS, HTML, Dota 2</td>
+            <td>Completed<br><a href="https://17pctluck.github.io/dota2_basic_hero_stat/">[1]</a> <a href="https://17pctluck.gitlab.io/dota2_basic_hero_stat/">[2]</a></td>
+            <td>Updated to 7.23e. For later version, in case of new stats calculation formula update to core program need to change. Else, re-run parser on new base stats would be sufficient.</td>
+            </tr>
+            <tr>
+            <td>Simple Beta Trading System</td>
+            <td>Find stocks with low beta pick high performing stocks and backtest performance.</td>
+            <td>Python, Pandas, Numpy, Matplotlib</td>
+            <td>Experimental</td>
+            <td>Performance on average similar to mutual fund with similar policy.</td>
+            </tr>
+            <tr>
+            <td>Stock Data Fetcher</td>
+            <td>Scrape historical daily stock data (OHLCV) from website API or request query. Store CSV file for further analysis.</td>
+            <td>Python, Requests, Pandas</td>
+            <td>Experimental</td>
+            <td>There are some problem with requested data such as duplicate date.</td>
+            </tr>
+            <tr>
+            <td>Websocket Recorder — Chrome Extension</td>
+            <td>Record websocket payload for further analysis.</td>
+            <td>Chrome Extension, DevTools Protocol.</td>
+            <td>Experimental</td>
+            <td>Different Chromium version may result in different encoding scheme.</td>
+            </tr>
+            <tr>
+            <td>VCNotes</td>
+            <td>Version control notes with support of uploading data and running code block. Note saved mainly in markdown format may be rendered server side or client side.</td>
+            <td>Python, Flask, Javascript, CSS, HTML, Code Mirror, Vega-Lite.</td>
+            <td>Incomplete</td>
+            <td>Only front end works. Able to render markdown client side, some syntax highlighting (python, javascript), and embed vega-lite graph in document.</td>
+            </tr>
+            <tr>
+            <td>Binary Data Parser</td>
+            <td>Parse binary payload. Translate javascript code to python for parsing.</td>
+            <td>Python.</td>
+            <td>Experimental</td>
+            <td>Mostly work with rarely incorrect payload size read or type.</td>
+            </tr>
+            <tr>
+            <td>Dynamic Time Wrapping</td>
+            <td>Find path and similarity between two sequences (time series) using dynamic time wrapping. Implemented in both python and cython.</td>
+            <td>Python, Cython, Numpy.</td>
+            <td>Experimental</td>
+            <td>Work fine. Using fastdtw library should be as fast.</td>
+            </tr>
+            <tr>
+            <td>Blender Molecule Structure Visualize Script</td>
+            <td>Load atoms positions from numpy. And use Blender/Python API to create object, assign material, position, keyframe, and render final images or animation.</td>
+            <td>Python, Numpy, Blender.</td>
+            <td>Experimental</td>
+            <td>Assigning a lot of keyframes can be relatively slow.</td>
+            </tr>
+        </tbody>
+    </body>
+</html>
